@@ -1,9 +1,6 @@
 import sys 
 import random
 
-#print("First argument:",sys.argv[1:])
-#print("First argument:", sys.argv[1])
-
 joke = ["Why did the tomato turn red? Because it saw the salad dressing!", "Why was the math book sad? Because it had too many problems."]
 
 command = str(sys.argv[1])
