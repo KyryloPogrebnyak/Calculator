@@ -19,38 +19,38 @@ while stop == True:
     print("OK you chose:",choice)
     print()
 
-    if choice == "add":
+    if choice == "1":
         print("Enter first number: ")
         first_number = float(input())
         print("Enter second number: ")
         second_number = float(input())
         print("The result is:", first_number + second_number)
         stop = False
-    elif choice == "multiply":
+    elif choice == "2":
         print("Enter first number: ")
         first_number = float(input())
         print("Enter second number: ")
         second_number = float(input())
         print("The result is:", first_number * second_number)
         stop = False
-    elif choice == "divide":
+    elif choice == "3":
         print("Enter first number: ")
         first_number = float(input())
         print("Enter second number: ")
         second_number = float(input())
         print("The result is:", first_number / second_number)
         stop = False
-    elif choice == "substract":
+    elif choice == "4":
         print("Enter first number: ")
         first_number = float(input())
         print("Enter second number: ")
         second_number = float(input())
         print("The result is:", first_number - second_number)
         stop = False
-    elif choice == "tell a joke":
+    elif choice == "5":
         print("The result is:",random.choice(joke))
         stop = False
-    elif choice == "exit":
+    elif choice == "6":
         print("Buy Man")
         stop = False
     else:
